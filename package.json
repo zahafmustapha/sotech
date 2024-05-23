@@ -1,0 +1,30 @@
+{
+  "name": "next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/free-brands-svg-icons": "^6.5.2",
+    "@fortawesome/free-regular-svg-icons": "^6.5.2",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@googleapis/docs": "^3.0.2",
+    "googleapis": "^137.1.0",
+    "json-server": "^1.0.0-beta.0",
+    "next": "14.2.3",
+    "next-google-fonts": "^2.2.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "sass": "^1.77.2"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3"
+  }
+}
