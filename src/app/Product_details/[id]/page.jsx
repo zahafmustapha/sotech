@@ -7,14 +7,16 @@ export const metadata = {
   title: "SignIn",
   description: "SignIn Page",
 };
-async function getData(iddd) {
-  const res = await fetch(`http://localhost:4000/products/${iddd}`);
+
+
+async function getData(id) {
+  const res = await fetch(`http://localhost:4000/products/${id}`);
 
   if (!res.ok) {
     throw new Error("Failed to fetch data");
   }
 
-  return res.json();
+  return await res.json();
 }
 
 const Page = async ({ params }) => {

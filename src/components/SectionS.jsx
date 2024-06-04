@@ -34,8 +34,8 @@ const SectionS = async () => {
                 <Link href={`/Product_details/${item.id}`}>
                   {" "}
                   <div className="img-box">
-                    <img
-                      src={item.productImg}
+                    <Image
+                      src={'/'+item.productImg}
                       alt="About Us Image"
                       width={900}
                       height={100}
